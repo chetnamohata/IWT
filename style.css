@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    background-image: url("21.jpg");
+}
+nav{
+    height: 15%;
+    width: 100%;
+    position: relative;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: chocolate;
+}
+nav ul li{
+    width: 25%;
+    float: left;
+}
+nav ul li a{
+    text-decoration: none;
+    color: beige;
+    padding: 10px;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+nav ul li a:hover{
+    background-color: black;
+    color: yellowgreen;
+}
+.obox{
+    
+    width: 100%;
+    height: 800px;
+    padding: 0;
+    margin: 0;
+    opacity: 0.8;
+    background-size: 10px 10px;
+    padding-top: 60px;
+    align-items: stretch;
+}
+.ibox{
+    margin: 40px;
+    background-color: burlywood;
+    box-shadow: 8px 8px gray;
+    align-content: center;
+    height: 500px;
+    font-size: 40px;
+    text-align: center;
+}
+.ibox1{
+    margin: 40px;
+    margin-top: 0;
+    background-color: burlywood;
+    padding: 10px;
+    box-shadow: 8px 8px gray;
+    align-content: left;
+    height: 650px;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 70px;
+}
+.obox2{
+    width: 100%;
+    height: 800px;
+    padding: 0;
+    margin: 0;
+    opacity: 0.8;
+    background-size: 10px 10px;
+    padding-top: 60px;
+    align-items: stretch;
+    position: relative;
+}
+.ibox2{
+    background-color: cornsilk;
+    padding: 10px;
+    box-shadow: 8px 8px gray;
+    align-content: left;
+    height: 450px;
+    float: left;
+    margin: 35px;
+    width: 40%;
+    font-size: 30px;
+    text-align: center;
+}
+.ibox2 ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
